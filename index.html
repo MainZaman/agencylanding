@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="description"
+      content="This challenge will be a perfect test of your layout and responsive skills. There's a tiny bit of JS for the mobile menu, but the focus is HTML & CSS."
+    />
+    <meta name="keywords" content="HTML, CSS, JavaScript" />
+    <meta name="author" content="MainZaman" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Agency landing page</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header data-aos="fade-down">
+      <div class="container headerContainer">
+        <img src="images/logo.svg" alt="image braning name" />
+        <nav>
+          <ul class="nav">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#" class="primaryBtn">Contact</a></li>
+          </ul>
+          <img
+            src="images/icon-hamburger.svg"
+            class="hamburger"
+            alt="icon-hamburger"
+          />
+        </nav>
+      </div>
+    </header>
+    <main>
+      <!-- landing start -->
+      <section class="landing">
+        <div class="landingContainer">
+          <h1 data-aos="fade-up">We are creatives</h1>
+          <span
+            ><img src="images/icon-arrow-down.svg" alt="icon-arrow-down" data-aos="fade-down"
+          /></span>
+        </div>
+      </section>
+      <!-- about start -->
+      <section class="about">
+        <div class="collectionAbout mobileCollectionAboutBottom">
+          <div class="aboutContent" data-aos="fade-right">
+            <h2>Transform your brand</h2>
+            <p>
+              We are a full-service creative agency specializing in helping
+              brands grow fast. Engage your clients through compelling visuals
+              that do most of the marketing for you.
+            </p>
+            <a href="#" class="secondaryBtn">Learn more</a>
+          </div>
+          <div class="aboutContentRightImage">
+            <!-- <img src="images/desktop/image-transform.jpg" alt=""> -->
+          </div>
+        </div>
+        <div class="collectionAbout mobileCollectionAboutTop">
+          <div class="aboutContentLeftImage"></div>
+          <div class="aboutContent" data-aos="fade-down">
+            <h2>Stand out to the right audience</h2>
+            <p>
+              Using a collaborative formula of designers, researchers,
+              photographers, videographers, and copywriters, we’ll build and
+              extend your brand in digital places.
+            </p>
+            <a href="#" class="thirdBtn">Learn more</a>
+          </div>
+        </div>
+      </section>
+      <!-- service start -->
+      <section class="serviceSection">
+        <div class="collectionService">
+          <div class="service service_mobile_bg01">
+            <div class="serviceContent" data-aos="zoom-in">
+              <h3>Graphic design</h3>
+              <p>
+                Great design makes you memorable. We deliver artwork that
+                underscores your brand message and captures potential clients’
+                attention.
+              </p>
+            </div>
+          </div>
+          <div class="service service_mobile_bg02">
+            <div class="serviceContent" data-aos="zoom-in">
+              <h3>Photography</h3>
+              <p>
+                Increase your credibility by getting the most stunning,
+                high-quality photos that improve your business image.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial start -->
+      <section class="testimonial">
+        <h4 data-aos="zoom-in-down">Client testimonials</h4>
+        <div class="collection_testimonial">
+          <div class="testimonial_item" data-aos="fade-right" data-aos-delay="300">
+            <div class="item_description">
+              <img src="images/image-emily.jpg" alt="image-emily" />
+              <p>
+                We put our trust in Sunnyside and they delivered, making sure
+                our needs were met and deadlines were always hit.
+              </p>
+            </div>
+            <div class="item_title">
+              <h5>Emily R.</h5>
+              <span>Marketing Director</span>
+            </div>
+          </div>
+          <div class="testimonial_item" data-aos-delay="400" data-aos="fade-right">
+            <div class="item_description">
+              <img src="images/image-thomas.jpg" alt="image-emily" />
+              <p>
+                Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.
+              </p>
+            </div>
+            <div class="item_title">
+              <h5>Thomas S.</h5>
+              <span>Chief Operating Officer</span>
+            </div>
+          </div>
+          <div class="testimonial_item" data-aos="fade-right" data-aos-delay="500">
+            <div class="item_description">
+              <img src="images/image-jennie.jpg" alt="image-emily" />
+              <p>
+                Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!
+              </p>
+            </div>
+            <div class="item_title">
+              <h5>Jennie F.</h5>
+              <span>Business Owner</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- project start -->
+       <section class="project" data-aos="fade-up"
+       data-aos-anchor-placement="bottom-bottom">
+        <div class="slider">
+          <img class="project_item" src="images/desktop/image-gallery-milkbottles.jpg" alt="image-gallery-milkbottles">
+          <img class="project_item" src="images/desktop/image-gallery-orange.jpg" alt="image-gallery-orange">
+          <img class="project_item" src="images/desktop/image-gallery-cone.jpg" alt="image-gallery-cone">
+          <img class="project_item" src="images/desktop/image-gallery-sugarcubes.jpg" alt="image-gallery-sugarcubes">
+        </div>
+       </section>
+    </main>
+    <footer>
+      <div class="footer_container">
+        <img src="images/footer_logo.png" alt="footer_logo" class="footer_logo" data-aos="fade-down">
+        <ul class="nav" data-aos="zoom-in">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Projects</a></li>
+        </ul>
+        <ul class="social">
+          <li data-aos-delay="400" data-aos="fade-up"><a href="#"><img src="images/icon-facebook.svg" alt="icon-facebook"></a></li>
+          <li data-aos-delay="400" data-aos="fade-up"><a href="#"><img src="images/icon-instagram.svg" alt="icon-instagram"></a></li>
+          <li data-aos-delay="500" data-aos="fade-up"><a href="#"><img src="images/icon-twitter.svg" alt="icon-twitter"></a></li>
+          <li data-aos-delay="600" data-aos="fade-up"><a href="#"><img src="images/icon-pinterest.svg" alt="icon-pinterest"></a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 900
+      });
+    </script>
+  </body>
+</html>
